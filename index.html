@@ -1,1 +1,199 @@
-<!DOCTYPE html><html lang=en><meta charset=utf-8><meta content="width=device-width,initial-scale=1"name=viewport><meta content=" FILL ME IN "name=description><meta content=" FILL ME IN "name=author><meta content=public http-equiv=Cache-control><meta content=31536000 http-equiv=max-age><meta content="max-age=31536000"http-equiv=Cache-control><meta content="Sat, 05 Aug 2017 20:00:00 GMT "http-equiv=last-modified><title>Cameron Pittman: Portfolio. Karalkou: Portfolio</title><link href=css/mobile-portrait.min.css media="(max-width:480px) and orientation:portrait"rel=stylesheet><link href=css/print.min.css media=print rel=stylesheet><style>@font-face{font-family:"Open Sans";src:url(fonts/OpenSans-Regular.ttf)}@font-face{font-family:"Open Sans Bold";src:url(fonts/OpenSans-Bold.ttf)}.hero,footer{border-top:1px solid #ccc}footer span,li p{font-style:italic}html{font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:100%;-webkit-text-size-adjust:none}body{margin:0;font-size:14px;line-height:1.61;font-weight:400;background:#fff}b,header p,strong{font-weight:700}body,button,input,select,textarea{font-family:'Open Sans',sans-serif;color:#333}a{color:#12c}a:visited{color:#61c}a:focus{outline:dotted thin}a:active,a:hover{color:#c00;outline:0}code,pre{font-family:monospace,monospace;font-size:1em}ol,ul{margin:1em 0;padding:0 0 0 20px}img{border:0;max-width:100%}.container,footer,header{max-width:45em;margin:0 auto}header{padding:0 .5em;color:#c90b0b}header img{border-radius:40px;float:left}header p{font-size:1.5em;padding-left:4em}header p span{font-size:.8em;font-weight:400}.hero{padding:2em;background-color:#f8f8f8;font-size:1.2em;border-bottom:1px solid #ccc}.content{padding:1em}.content li{list-style-type:none;font-size:1.1em}li img{float:left;padding-right:1em}li p{font-size:.9em}footer{padding:0 .5em}footer span{float:right}@media only screen and (max-width:480px){body{font-size:12px}header p{padding-left:4.5em}}</style><header><div><a href=/ ><img src=dist/img/profilepic.jpg></a><p>Cameron Pittman<br><span>Course Developer</span></div><div><a href=/ ><img src=dist/img/profilepic_KYS.jpg></a><p>Корольков Юрий Сергеевич<br><span>yury.karalkou@gmail.com, +375293981424</span></div></header><div class=container><div class=hero><strong>I love web development!</strong> This is a template for a simple portfolio. I decided to use it to showcase a few Udacity courses I've taken and some teaching work, but you can use it to showcase any kind of project that you want the world to see :)<br>Contact me: me@email.com</div><div class=content><ul><li><img src="https://lh4.ggpht.com/kJEnfqhPvtm4m3EneSZ4fWYGS8lW4YNhEjk6zPkyrQaBUHc-2Y_ElDic99NHI0h-UBLXVbRCjFybFvrWxdk=s100"> <a href=project-2048.html>Build Your Own 2048!</a><p>I made my own version of 2048. How cool is that!?<li><img src="https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100"> <a href=project-webperf.html>Website Performance Optimization</a><p>Hey... this class looks familiar.<li><img src="https://lh5.ggpht.com/IKdCmTWn8a2nMhlwMYzryvzRN5CUZAOBr4tDrEAbszV7TIFe9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s100"> <a href=project-mobile.html>Mobile Web Development</a><p>Making mobile apps isn't so hard after all.<li><img src=dist/img/pizzeria.jpg style=width:100px> <a href=views/pizza.html>Cam's Pizzeria</a><p>Who wants a performant pizza?</ul></div><footer><p>© Web Performance 2014 <span id=crp-stats></span></footer></div><script>!function(e,n){e.GoogleAnalyticsObject=n,e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)},e[n].l=1*new Date}(window,"ga"),ga("create","UA-XXXX-Y"),ga("send","pageview")</script><script async src=http://www.google-analytics.com/analytics.js></script><script>function logCRP(){var o=window.performance.timing,n=o.domContentLoadedEventStart-o.domLoading,t=o.domComplete-o.domLoading;document.getElementById("crp-stats").textContent="DCL: "+n+"ms, onload: "+t+"ms"}window.addEventListener("load",function(o){logCRP()})</script>
+<!DOCTYPE html>
+<html lang=en>
+<meta charset=utf-8>
+<meta content="width=device-width,initial-scale=1" name=viewport>
+<meta content=" FILL ME IN " name=description>
+<meta content=" FILL ME IN " name=author>
+<meta content=public http-equiv=Cache-control>
+<meta content=31536000 http-equiv=max-age>
+<meta content="max-age=31536000" http-equiv=Cache-control>
+<meta content="Sat, 05 Aug 2017 20:00:00 GMT " http-equiv=last-modified>
+<title>Cameron Pittman: Portfolio. Karalkou: Portfolio</title>
+<link href=css/mobile-portrait.min.css media="(max-width:480px) and orientation:portrait" rel=stylesheet>
+<link href=css/print.min.css media=print rel=stylesheet>
+<style>@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(fonts/OpenSans-Bold.ttf)
+}
+
+.hero, footer {
+    border-top: 1px solid #ccc
+}
+
+footer span, li p {
+    font-style: italic
+}
+
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-tap-highlight-color: transparent;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: none
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.61;
+    font-weight: 400;
+    background: #fff
+}
+
+b, header p, strong {
+    font-weight: 700
+}
+
+body, button, input, select, textarea {
+    font-family: 'Open Sans', sans-serif;
+    color: #333
+}
+
+a {
+    color: #12c
+}
+
+a:visited {
+    color: #61c
+}
+
+a:focus {
+    outline: dotted thin
+}
+
+a:active, a:hover {
+    color: #c00;
+    outline: 0
+}
+
+code, pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+ol, ul {
+    margin: 1em 0;
+    padding: 0 0 0 20px
+}
+
+img {
+    border: 0;
+    max-width: 100%
+}
+
+.container, footer, header {
+    max-width: 45em;
+    margin: 0 auto
+}
+
+header {
+    padding: 0 .5em;
+    color: #c90b0b
+}
+
+header img {
+    border-radius: 40px;
+    float: left
+}
+
+header p {
+    font-size: 1.5em;
+    padding-left: 4em
+}
+
+header p span {
+    font-size: .8em;
+    font-weight: 400
+}
+
+.hero {
+    padding: 2em;
+    background-color: #f8f8f8;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ccc
+}
+
+.content {
+    padding: 1em
+}
+
+.content li {
+    list-style-type: none;
+    font-size: 1.1em
+}
+
+li img {
+    float: left;
+    padding-right: 1em
+}
+
+li p {
+    font-size: .9em
+}
+
+footer {
+    padding: 0 .5em
+}
+
+footer span {
+    float: right
+}
+li .img { width: 115px; height: 64px; float: left; margin-right: 20px; background-repeat: no-repeat;}
+.project-2048{background-image: url(data:image/jpeg;base64,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);}
+.performance {background-image: url(data:image/jpeg;base64,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);}
+.mobile {background-image: url(data:image/jpeg;base64,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);}
+.pizzeria {background-image: url(data:image/jpeg;base64,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);}
+</style>
+<header>
+    <div><a href=/><img src=dist/img/profilepic.jpg></a>
+        <p>Cameron Pittman<br><span>Course Developer</span></div>
+    <div><a href=/><img src=dist/img/profilepic_KYS.jpg></a>
+        <p>Корольков Юрий Сергеевич<br><span>yury.karalkou@gmail.com, +375293981424</span></div>
+</header>
+<div class=container>
+    <div class=hero><strong>I love web development!</strong> This is a template for a simple portfolio. I decided to use
+        it to showcase a few Udacity courses I've taken and some teaching work, but you can use it to showcase any kind
+        of project that you want the world to see :)<br>Contact me: me@email.com
+    </div>
+    <div class=content>
+        <ul>
+            <li>
+                <div class="img project-2048"></div>
+                <a href=project-2048.html>Build Your Own 2048!</a>
+                <p>I made my own version of 2048. How cool is that!?
+            <li>
+            <div class="img performance"></div>
+                <a href=project-webperf.html>Website Performance Optimization</a>
+                <p>Hey... this class looks familiar.
+            <li><
+            <div class="img mobile"></div>
+                <a href=project-mobile.html>Mobile Web Development</a>
+                <p>Making mobile apps isn't so hard after all.
+            <li>
+            <div class="img pizzeria"></div>
+            <a href=views/pizza.html>Cam's Pizzeria</a>
+                <p>Who wants a performant pizza?
+        </ul>
+    </div>
+    <footer><p>© Web Performance 2014 <span id=crp-stats></span></footer>
+</div>
+<script>!function (e, n) {
+    e.GoogleAnalyticsObject = n, e[n] = e[n] || function () {
+        (e[n].q = e[n].q || []).push(arguments)
+    }, e[n].l = 1 * new Date
+}(window, "ga"), ga("create", "UA-XXXX-Y"), ga("send", "pageview")</script>
+<script async src=http://www.google-analytics.com/analytics.js></script>
+<script>function logCRP() {
+    var o = window.performance.timing, n = o.domContentLoadedEventStart - o.domLoading,
+        t = o.domComplete - o.domLoading;
+    document.getElementById("crp-stats").textContent = "DCL: " + n + "ms, onload: " + t + "ms"
+}
+
+window.addEventListener("load", function (o) {
+    logCRP()
+})</script>
