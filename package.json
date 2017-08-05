@@ -1,0 +1,23 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "CRP optimization for rolling scopes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karalkou/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "Yury Karalkou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karalkou/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/karalkou/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.3.0"
+  }
+}
